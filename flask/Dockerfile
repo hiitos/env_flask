@@ -10,5 +10,7 @@ RUN pip install flask_restful
 RUN pip install sqlalchemy
 RUN pip install python-dotenv
 RUN pip install PyMySQL
+RUN pip install pytest
+RUN pip install pytest-cov
 
 CMD python main.py
